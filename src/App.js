@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className="container">
-      <h2>Our Food Recipes</h2>
+      <h2>Recipe Nest</h2>
       <SearchBar
         isLoading={isLoading}
         query={query}
@@ -44,7 +44,7 @@ function App() {
              key={recipe.idMeal}
              recipe={recipe}
           />
-        )) : "No Results."}
+        )) : "No Results.Recipe not available !!!!!"}
       </div>
     </div>
   );
