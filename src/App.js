@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>***Cookopedia***</h1>
+      <h1>Recipe Hub</h1>
       <SearchBar
         isLoading={isLoading}
         query={query}
